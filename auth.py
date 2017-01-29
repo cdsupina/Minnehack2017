@@ -1,3 +1,5 @@
 im_client_id = '11e147eb82b23bf'
 im_client_secret = 'd5daa5da37cf34d663ea79cf0c385bb6cf2c56f7'
 watson_auth = '953700a623a9d4dd6fa0dc6da262ee073cf0f31a'
+twilio_account_sid = 'AC93bc79a222d23f5e7e09308591e8bec2'
+twilio_auth_token = 'ceef4b2d00ddca1ddc4b73ede5bc4539'
