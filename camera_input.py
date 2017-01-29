@@ -7,7 +7,6 @@ import time
 import os
 from auth import *
 import pyimgur
-from img_locs import *
 
 #initialize imgur api
 im = pyimgur.Imgur(im_client_id)
@@ -18,10 +17,13 @@ vis_rec = VisualRecognitionV3('2016-05-20', api_key=watson_auth)
 session_num = 0
 
 #make folder for session
-while(os.path.exists('session_' + str(session_num))):
+
+if not os.path.exists('sessions'):
+    os.makedirs('sessions')
+while(os.path.exists('sessions/session_' + str(session_num))):
     session_num += 1
 
-session_id = 'session_' + str(session_num)
+session_id = 'sessions/session_' + str(session_num)
 
 os.makedirs(session_id)
 
