@@ -10,7 +10,8 @@ from twilio.rest import TwilioRestClient
 account_sid = ""
 auth_token = ""
 
-
+account_sid = "AC93bc79a222d23f5e7e09308591e8bec2"
+auth_token = "ceef4b2d00ddca1ddc4b73ede5bc4539"
 
 client = TwilioRestClient(account_sid, auth_token)
 
