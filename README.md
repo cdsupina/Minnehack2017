@@ -25,5 +25,5 @@ If this project continues, it is important to make a simple gui so the applicati
 opencv, bluemix, firebase, twilio, python, html5, css3, javascript, ibm-watson, imgur
 
 ## Related Link 
-[DevPost](http://https://devpost.com/software/kill-a-calorie)
+[DevPost](https://devpost.com/software/kill-a-calorie)
 [Project Website](http://killacalorie.org/) [Project Website Repo](https://github.com/erickimme/minnehacktest)
